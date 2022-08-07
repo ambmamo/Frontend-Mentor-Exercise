@@ -1,0 +1,111 @@
+/* 1440px */
+body{
+    margin: 0;
+    padding: 0;
+    background: hsl(30, 38%, 92%);
+}
+
+
+.outer-div{
+    background: url('images/image-product-desktop.jpg');
+        background-size: 50%;
+        height: 40%;
+        margin: 22% auto 22% auto;
+        width: 500px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 8%;
+        background-repeat: no-repeat;
+}
+.inner-div{
+    margin-left: 50%;
+} 
+h5,h1,p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+form{
+    padding: 20px;
+}
+
+h5{
+    padding-top: 20px;
+    letter-spacing: 4px;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 20px;
+}
+h5,p{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    margin-top: 15px;
+}
+p{
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+.prices{
+    margin: 0;
+}
+.price{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 20px;
+    display: inline-block;
+    transform: translateY(-5px);
+    font-size: 10px;
+}
+.discount {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 20px;
+}
+h3{
+    color: hsl(158, 36%, 37%);
+    color: hsl(212, 21%, 14%);
+    color: hsl(228, 12%, 48%);
+}
+button{
+    width: 200px;
+    background-color: hsl(158, 36%, 37%);
+    border: 0;
+    border-radius: 10px;
+    
+}
+.cart{
+    width: 16px;
+}
+.button{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+button:hover{
+    background-color: hsl(158, 39%, 25%);
+}
+
+/* 375px */
+@media screen and (max-width: 375px){
+    .outer-div {
+            background: url('images/image-product-mobile.jpg');
+            background-size: contain;
+            height: 40%;
+            margin: 22% auto 22% auto;
+            width: 300px;
+            background-color: hsl(0, 0%, 100%);
+            border-radius: 8%;
+            background-repeat: no-repeat;
+        }
+    .inner-div {
+            border-top: 30px;
+            margin-left: 0;
+        }
+    h5{
+            padding-top: 225px;
+        }
+    
+}
